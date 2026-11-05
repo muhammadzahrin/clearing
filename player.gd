@@ -7,7 +7,8 @@ const MOUSE_SENSITIVITY := 0.003
 
 
 func _ready() -> void:
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	if not OS.has_feature("web"): # browsers refuse mouse capture before the first click
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 
 func _unhandled_input(event: InputEvent) -> void:

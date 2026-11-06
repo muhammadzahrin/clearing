@@ -18,4 +18,18 @@ Goal: find 3 fuses in a foggy forest, power the gate, escape a stalker that only
 
 ## Steps
 
-0.1.0 walk around · 0.2.0 darkness + flashlight · 0.3.0 fuses · 0.4.0 stalker · 0.5.0 sound + escape
+Done: 0.1.0 walk around · 0.1.1 web export.
+
+Core (a finished, story-telling game):
+- 0.2.0 darkness + flashlight · 0.3.0 fuses · 0.4.0 stalker · 0.5.0 sound + escape
+- 0.6.0 dialogue box + one NPC (typewriter text, a choice, a flag)
+- 0.7.0 intro cutscene (AnimationPlayer, Mixamo animations)
+
+Should have:
+- 0.8.0 menus and settings · 0.9.0 saving and loading
+
+Nice to have (order flexible):
+- own mocap with PoseCap (needs Blender 4.2+; SMPL-X licence is non-commercial)
+- deeper sound design (music that reacts to danger)
+- stalker pathfinding (only if it gets stuck on trees)
+- shaders beyond the built-in PS1 look

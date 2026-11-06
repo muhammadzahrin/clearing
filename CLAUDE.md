@@ -28,8 +28,8 @@ Core (a finished, story-telling game):
 Should have:
 - 0.8.0 menus and settings · 0.9.0 saving and loading
 
-Nice to have (order flexible):
-- own mocap with PoseCap (needs Blender 4.2+; SMPL-X licence is non-commercial)
-- deeper sound design (music that reacts to danger)
-- stalker pathfinding (only if it gets stuck on trees)
-- shaders beyond the built-in PS1 look
+Nice to have (0.10.0 onwards, order flexible; "0.10.0" is a version, not 0.1.0):
+- 0.10.0 own mocap with PoseCap (needs Blender 4.2+; SMPL-X licence is non-commercial)
+- 0.11.0 deeper sound design (music that reacts to danger)
+- 0.12.0 stalker pathfinding (only if it gets stuck on trees)
+- 0.13.0 shaders beyond the built-in PS1 look

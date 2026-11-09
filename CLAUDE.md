@@ -7,7 +7,10 @@ Goal: find 3 fuses in a foggy forest, power the gate, escape a stalker that only
   (call the main exe; the `_console` wrapper fails because the folder name ends in `.exe`).
 - Renderer: GL Compatibility only, so the web export works.
 - Look: rendered at 320x240 and scaled up (`display/window/stretch/mode="viewport"`).
-- Web build target: GitHub Pages, single-threaded web export.
+- Web build target: GitHub Pages, single-threaded web export. Live at https://muhammadzahrin.github.io/clearing/
+- Deploy: export the "Web" preset to `build/web/` (keep `build/.gdignore`), then commit and push `build/web`
+  (its own git repo) to the `gh-pages` branch of github.com/muhammadzahrin/clearing.
+- GitHub CLI: portable copy at `tools/gh/x/bin/gh.exe` (git-ignored), signed in as muhammadzahrin.
 
 ## Versions
 
